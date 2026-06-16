@@ -1,0 +1,18 @@
+# Python bytecode and cash artifacts
+__pycache__/
+*.pyc
+
+# Local environment configuration variables 
+.env
+.venv/
+env/
+venv/
+
+# MLflow run metadata and local file locks
+mlruns/
+.mlflow/
+
+# Large binaries or temporary local logs
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
